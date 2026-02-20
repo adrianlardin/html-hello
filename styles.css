@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+.encabezado {
+    background: #FFFFFF;
+    text-align: center;
+}
+.columna {
+    background: #E6E6E6;
+    display: grid;
+    gap: 10px
+}
+.imagen * {
+    width: 100%;
+}
+.cuadrado {
+    background: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.titulo {
+    display: flex;
+}
+.titulo .izquierda {
+    margin-left: 10px;
+    width: 50%;
+}
+.titulo .derecha {
+    margin-right: 10px;
+    width: 50%;
+    text-align: right;
+}
+.parrafo {
+    margin: 10px;
+}
